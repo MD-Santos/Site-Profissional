@@ -21,6 +21,7 @@ html, body{height: 100%;}
 /*MENU*/
 .navbar{
     background-color: transparent;
+    transition: background 0.5s linear;
 }
 
 .navbar ul a:hover{
@@ -82,6 +83,27 @@ html, body{height: 100%;}
     line-height: 1.8rem;
     text-align: justify;
     text-indent: 30px;
+
+}
+
+.sobre .missao-visao-valores{
+    padding: 20px 0;
+    margin-top: 35px;
+}
+
+.sobre .missao-visao-valores .icon{
+    color: #fff;
+}
+
+.sobre .missao-visao-valores h3{
+    font-size: 1.5rem;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.sobre .missao-visao-valores p{
+    color: #fff;
+    text-align: center;
 }
 
 /*CUSTOM*/
@@ -131,8 +153,13 @@ nav i.material-icons {
     .banner{
         padding-top: 4.5rem;
     }
+
     .banner h2{
         font-size: 4rem;
+    }
+
+    .container{
+        width: 85%;
     }
 }
   
@@ -140,8 +167,13 @@ nav i.material-icons {
     .banner{
         padding-top: 5rem;
     }
+
     .banner h2{
         font-size: 4rem;
+    }
+
+    .container{
+        width: 90%;
     }
 }
 
