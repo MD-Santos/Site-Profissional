@@ -16,14 +16,15 @@
 </head>
 
 <body>
+    <!--HEADER-->
     <header>
         <!--MENU MOBILE-->
         <ul class="side-nav" id="menu-mobile">
-            <li><a href="">Home</a></li>
-            <li><a href="">Sobre o Boa Forma</a></li>
-            <li><a href="">Serviços</a></li>
-            <li><a href="">Unidades</a></li>
-            <li><a href="">Contato</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#sobre">Sobre o Boa Forma</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#unidades">Unidades</a></li>
+            <li><a href="#contato">Contato</a></li>
         </ul>
 
         <div class="navbar-fixed">
@@ -32,19 +33,21 @@
                     <h1 class="logo-text">Centro Boa Forma - Seu Espaço de Saúde</h1>
                     <a href=""><img class="logo-img" src="img/logo.png" alt="Centro Boa Forma"></a>
                     <ul class="right light hide-on-med-and-down">
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Sobre o Boa Forma</a></li>
-                        <li><a href="">Serviços</a></li>
-                        <li><a href="">Unidades</a></li>
-                        <li><a href="">Contato</a></li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#sobre">Sobre o Boa Forma</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#unidades">Unidades</a></li>
+                        <li><a href="#contato">Contato</a></li>
                     </ul>
 
-                    <a href="#" data-activates="menu-mobile" class="button-collapse right"><i class="material-icons">menu</i></a>
+                    <a href="#" data-activates="menu-mobile" class="button-collapse right"><i
+                            class="material-icons">menu</i></a>
                 </div>
             </nav>
         </div>
     </header>
-    <section class="home bloco">
+    <!--HOME-->
+    <section class="home bloco scrollSpy" id="home">
         <div class="row container banner">
             <div class="col s12 center">
                 <h2 class="white-text">O melhor treinamento funcional da região</h2>
@@ -59,16 +62,51 @@
         </div>
     </section>
 
+    <!--SOBRE-->
+    <section class="sobre bloco scrollSpy" id="sobre">
+        <div class="row container">
+            <div class="col s12 center">
+                <h2 class="light">Sobre Nós</h2>
+            </div>
+            <div class="col 12 l6">
+                <p class="light">
+                    O Centro Boa Forma chegou a Cuiabá e região trazendo um novo conceito em prevenção, promoção e
+                    reabilitação da saúde. Localizado no centro da cidade, conta com fácil estacionamento, salas amplas
+                    e climatizadas, ambiente confortável e seguro aos seus usuários. Suas instalações foram projetadas e
+                    equipadas sob medida, dentro dos padrões de acessibilidade, para acolher principalmente pessoas com
+                    limitações funcionais. O centro dispõe de uma equipe profissional qualificada e com experiêncis no
+                    mercado, prezando sempre por tratamentos individualizados e baseados em evidências científicas.
+                </p>
+            </div>
+            <div class="col 12 l6">
+
+            </div>
+        </div>
+    </section>
+
     <!--jQUERY jS-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!--MATERIALIZE jS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <!--JAVASCRIPT-->
     <script>
-        $(document).ready(function(){
+        //INICIALIZAÇÃO
+        $(document).ready(function () {
             //MENU MOBILE
             $(".button-collapse").sideNav();
+            //LINK INTERNNO
+            $(".scrollSpy").scrollSpy({
+                scrollOffset: 0
+            });
         });
+        //ADICIONANDO NAVCOLOR
+        $(window).on("scroll", function () {
+            if ($(window).scrollTop() > 100) {
+                $(".navbar").addClass("nav-color");
+            } else {
+                $(".navbar").removeClass("nav-color")
+            }
+        })
     </script>
 </body>
 
