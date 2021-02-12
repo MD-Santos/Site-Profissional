@@ -16,13 +16,43 @@
 </head>
 
 <body>
+    <header>
+        <!--MENU MOBILE-->
+        <ul class="side-nav" id="menu-mobile">
+            <li><a href="">Home</a></li>
+            <li><a href="">Sobre o Boa Forma</a></li>
+            <li><a href="">Serviços</a></li>
+            <li><a href="">Unidades</a></li>
+            <li><a href="">Contato</a></li>
+        </ul>
+
+        <div class="navbar-fixed">
+            <nav class="navbar z-depth-0">
+                <div class="nav-wrapper container">
+                    <h1 class="logo-text">Centro Boa Forma - Seu Espaço de Saúde</h1>
+                    <a href=""><img class="logo-img" src="img/logo.png" alt="Centro Boa Forma"></a>
+                    <ul class="right light hide-on-med-and-down">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Sobre o Boa Forma</a></li>
+                        <li><a href="">Serviços</a></li>
+                        <li><a href="">Unidades</a></li>
+                        <li><a href="">Contato</a></li>
+                    </ul>
+
+                    <a href="#" data-activates="menu-mobile" class="button-collapse right"><i class="material-icons">menu</i></a>
+                </div>
+            </nav>
+        </div>
+    </header>
     <section class="home bloco">
         <div class="row container banner">
             <div class="col s12 center">
                 <h2 class="white-text">O melhor treinamento funcional da região</h2>
-                <p class="white-text light">Um novo conceito em prevenção, promoção e reabilitação de saúde para quem busca melhora do condicionamento e emagrecimento, além de ser divertido e desafiador. Quer experimentar?</p>
-                <div class="row botoes">
-                    <a class="btn btn-large blue">Sobre Nós</a>
+                <p class="white-text light">Um novo conceito em prevenção, promoção e reabilitação de saúde para quem
+                    busca melhora do condicionamento e emagrecimento, além de ser divertido e desafiador. Quer
+                    experimentar?</p>
+                <div class="row">
+                    <a class="btn btn-large blue-logo">Sobre Nós</a>
                     <a class="btn btn-large white black-text">Contato</a>
                 </div>
             </div>
@@ -33,6 +63,13 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!--MATERIALIZE jS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <!--JAVASCRIPT-->
+    <script>
+        $(document).ready(function(){
+            //MENU MOBILE
+            $(".button-collapse").sideNav();
+        });
+    </script>
 </body>
 
 </html>
