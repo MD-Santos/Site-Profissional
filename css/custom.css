@@ -106,6 +106,34 @@ html, body{height: 100%;}
     text-align: center;
 }
 
+/*SERVIÇOS*/
+.servicos{
+    background-image: url('../img/textura2.png');
+}
+
+.servicos h2{
+    font-size: 2rem;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.servicos h2::after{
+    content: '';
+    display: block;
+    width: 100px;
+    border-top: 1px solid #2dc7d0;
+    margin: 15px auto;
+}
+
+.servicos p{
+    color: #fff;
+    line-height: 1.8rem;
+}
+
+.servicos .btn-horario{
+    padding-bottom: 20px;
+}
+
 /*CUSTOM*/
 nav {
     color: #fff;
@@ -142,6 +170,26 @@ nav i.material-icons {
 .side-nav li>a{
     color: #fff;
     font-weight: 100;
+}
+
+.row{
+    margin-bottom: 0;
+}
+
+.tabs{
+    background-color: #222;
+}
+
+.tabs .tab a{
+    color: #fff;
+}
+
+.tabs .tab a:hover, .tabs .tab a.active{
+    color: #2dc7d0;
+}
+
+.tabs .indicator{
+    background-color: #2dc7d0;
 }
 
 /*MEDIA*/
