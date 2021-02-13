@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Centro Boa Forma - Seu Espaço de Saúde</title>
-    <link rel="icon" href="img/fav.png">
+    <link rel="icon" href="./img/fav.png">
     <!--GOOGLE ICONS-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--FONT AWESOME-->
@@ -14,7 +14,7 @@
     <!--MATERIALIZE CSS-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
     <!--CUSTOM CSS-->
-    <link rel="stylesheet" href="/css/custom.css">
+    <link rel="stylesheet" href="./css/custom.css">
 </head>
 
 <body>
@@ -33,7 +33,7 @@
             <nav class="navbar z-depth-0">
                 <div class="nav-wrapper container">
                     <h1 class="logo-text">Centro Boa Forma - Seu Espaço de Saúde</h1>
-                    <a href=""><img class="logo-img" src="img/logo.png" alt="Centro Boa Forma"></a>
+                    <a href=""><img class="logo-img" src="./img/logo.png" alt="Centro Boa Forma"></a>
                     <ul class="right light hide-on-med-and-down">
                         <li><a href="#home">Home</a></li>
                         <li><a href="#sobre">Sobre o Boa Forma</a></li>
@@ -42,8 +42,7 @@
                         <li><a href="#contato">Contato</a></li>
                     </ul>
 
-                    <a href="#" data-activates="menu-mobile" class="button-collapse right"><i
-                            class="material-icons">menu</i></a>
+                    <a href="#" data-activates="menu-mobile" class="button-collapse right"><i class="material-icons">menu</i></a>
                 </div>
             </nav>
         </div>
@@ -82,9 +81,9 @@
             </div>
             <div class="col s12 l6">
                 <div class="carousel carousel-slider" data-indicators="true">
-                    <a href="#one!" class="carousel-item"><img src="img/banner-01.jpg" alt="Imagem Institucional"></a>
-                    <a href="#two!" class="carousel-item"><img src="img/banner-02.jpg" alt="Imagem Institucional"></a>
-                    <a href="#three!" class="carousel-item"><img src="img/banner-03.jpg" alt="Imagem Institucional"></a>
+                    <a href="#one!" class="carousel-item"><img src="./img/banner-01.jpg" alt="Imagem Institucional"></a>
+                    <a href="#two!" class="carousel-item"><img src="./img/banner-02.jpg" alt="Imagem Institucional"></a>
+                    <a href="#three!" class="carousel-item"><img src="./img/banner-03.jpg" alt="Imagem Institucional"></a>
                 </div>
             </div>
         </div>
@@ -133,7 +132,7 @@
             <article class="col s12 m6 l3">
                 <div class="card">
                     <div class="card-image">
-                        <img src="img/pilates.jpg" alt="Pilates" class="materialboxed">
+                        <img src="./img/pilates.jpg" alt="Pilates" class="materialboxed">
                         <a href="#pilates-modal" class="btn btn-floating halfway-fab blue-logo modal-trigger">
                             <i class="material-icons">more_horiz</i>
                         </a>
@@ -175,7 +174,7 @@
             <article class="col s12 m6 l3">
                 <div class="card">
                     <div class="card-image">
-                        <img src="img/nutricao.jpg" alt="Nutrição" class="materialboxed">
+                        <img src="./img/nutricao.jpg" alt="Nutrição" class="materialboxed">
                         <a href="#nutricao-modal" class="btn btn-floating halfway-fab blue-logo modal-trigger">
                             <i class="material-icons">more_horiz</i>
                         </a>
@@ -201,7 +200,7 @@
             <article class="col s12 m6 l3">
                 <div class="card">
                     <div class="card-image">
-                        <img src="img/fisioterapia.jpg" alt="Fisioterapia" class="materialboxed">
+                        <img src="./img/fisioterapia.jpg" alt="Fisioterapia" class="materialboxed">
                         <a href="#fisio-modal" class="btn btn-floating halfway-fab blue-logo modal-trigger">
                             <i class="material-icons">more_horiz</i>
                         </a>
@@ -227,7 +226,7 @@
             <article class="col s12 m6 l3">
                 <div class="card">
                     <div class="card-image">
-                        <img src="img/funcional.jpg" alt="Funcional" class="materialboxed">
+                        <img src="./img/funcional.jpg" alt="Funcional" class="materialboxed">
                         <a href="#funcional-modal" class="btn btn-floating halfway-fab blue-logo modal-trigger">
                             <i class="material-icons">more_horiz</i>
                         </a>
@@ -338,8 +337,8 @@
                         </tbody>
                     </table>
 
-                     <!--TABELA FITNESS-->
-                     <table class="striped responsive-table" id="tabela-fitness">
+                    <!--TABELA FITNESS-->
+                    <table class="striped responsive-table" id="tabela-fitness">
                         <thead>
                             <tr>
                                 <th></th>
@@ -376,8 +375,8 @@
                         </tbody>
                     </table>
 
-                     <!--TABELA ARTES MARCIAIS-->
-                     <table class="striped responsive-table" id="tabela-artes-marciais">
+                    <!--TABELA ARTES MARCIAIS-->
+                    <table class="striped responsive-table" id="tabela-artes-marciais">
                         <thead>
                             <tr>
                                 <th></th>
@@ -435,7 +434,7 @@
             <article class="col s12 l6">
                 <div class="card horizontal">
                     <div class="card-image card-image-horizontal">
-                        <img src="img/bh.jpg" alt="Belo Horizonte">
+                        <img src="./img/bh.jpg" alt="Belo Horizonte">
                     </div>
                     <div class="card-stacked">
                         <div class="card-content">
@@ -454,7 +453,7 @@
             <article class="col s12 l6">
                 <div class="card horizontal">
                     <div class="card-image card-image-horizontal">
-                        <img src="img/cuiaba.jpg" alt="Cuiabá">
+                        <img src="./img/cuiaba.jpg" alt="Cuiabá">
                     </div>
                     <div class="card-stacked">
                         <div class="card-content">
@@ -473,7 +472,7 @@
             <article class="col s12 l6">
                 <div class="card horizontal">
                     <div class="card-image card-image-horizontal">
-                        <img src="img/sp.jpg" alt="São Paulo">
+                        <img src="./img/sp.jpg" alt="São Paulo">
                     </div>
                     <div class="card-stacked">
                         <div class="card-content">
@@ -492,7 +491,7 @@
             <article class="col s12 l6">
                 <div class="card horizontal">
                     <div class="card-image card-image-horizontal">
-                        <img src="img/rj.jpg" alt="Rio de Janeiro">
+                        <img src="./img/rj.jpg" alt="Rio de Janeiro">
                     </div>
                     <div class="card-stacked">
                         <div class="card-content">
@@ -546,7 +545,7 @@
                 <div class="formulario white black-text">
                     <h4>Fale Conosco</h4>
                     <p class="light">Dúvidas, críticas ou sugestões? ENtre em contato conosco, seu feedback é muito importante.</p>
-                    <form action="" method="POST">
+                    <form action="enviar-email.php" method="POST">
                         <div class="input-field">
                             <input type="text" name="name" id="name">
                             <label for="name">Seu nome</label>
@@ -560,7 +559,7 @@
                             <label for="subject">Assunto</label>
                         </div>
                         <div class="input-field">
-                            <textarea id="message" class="materialize-textarea"></textarea>
+                            <textarea name="message" id="message" class="materialize-textarea"></textarea>
                             <label for="message">Mensagem</label>
                         </div>
                         <button class="btn blue-logo" type="submit">Enviar</button>
@@ -577,7 +576,7 @@
                 <h2 class="titulo white-text light">Depoimentos</h2>
             </div>
             <div class="col s12 m4 center">
-                <img src="img/depo1.jpg" alt="Depoimento 1" class="circle responsive-img">
+                <img src="./img/depo1.jpg" alt="Depoimento 1" class="circle responsive-img">
                 <p class="light white-text">"Conheci o treinamento funcional e a metodologia do Centro Boa Forma por indicação de um amigo. Excelentes profissionais e super atenciosos."</p>
                 <h4 class="light white-text">Felipe Souza</h4>
                 <p class="white-text">
@@ -590,7 +589,7 @@
             </div>
 
             <div class="col s12 m4 center">
-                <img src="img/depo2.jpg" alt="Depoimento 2" class="circle responsive-img">
+                <img src="./img/depo2.jpg" alt="Depoimento 2" class="circle responsive-img">
                 <p class="light white-text">"Gostei muito da oficina e das aulas, superou minhas expectativas. A empresa e os treinamentos foram ótimos."</p>
                 <h4 class="light white-text">Bruno Valério</h4>
                 <p class="white-text">
@@ -603,7 +602,7 @@
             </div>
 
             <div class="col s12 m4 center">
-                <img src="img/depo3.jpg" alt="Depoimento 3" class="circle responsive-img">
+                <img src="./img/depo3.jpg" alt="Depoimento 3" class="circle responsive-img">
                 <p class="light white-text">"Treinar com motivação e satisfação pelos resultados obtidos são os motivos que me conquistaram e me mantém no Centro Boa Forma."</p>
                 <h4 class="light white-text">Joana Souza</h4>
                 <p class="white-text">
@@ -620,7 +619,7 @@
     <!--RODAPÉ-->
     <footer class="rodape">
         <div class="row container center">
-            <img src="img/logo.png" class="logo-img" alt="Centro Boa FOrma">
+            <img src="./img/logo.png" class="logo-img" alt="Centro Boa FOrma">
             <p class="light white-text">&copy; Centro Boa Forma 2021 - Todos os direitos reservados</p>
         </div>
     </footer>
@@ -632,7 +631,7 @@
     <!--JAVASCRIPT-->
     <script>
         //INICIALIZAÇÃO
-        $(document).ready(function () {
+        $(document).ready(function() {
             //MENU MOBILE
             $(".button-collapse").sideNav();
             //LINK INTERNNO
@@ -648,18 +647,18 @@
             //TABS
             $("ul.tabs").tabs();
             //ESCONDER MENU AO CLICAR
-            $(".hide-menu").click(function(){
+            $(".hide-menu").click(function() {
                 $(".butten-collapse").sideNav("hide");
             });
             //AUTOPLAY SLIDER
-            function autoplay(){
+            function autoplay() {
                 $(".carousel").carousel("next");
                 setTimeout(autoplay, 4500);
             }
             autoplay();
         });
         //ADICIONANDO NAVCOLOR
-        $(window).on("scroll", function () {
+        $(window).on("scroll", function() {
             if ($(window).scrollTop() > 100) {
                 $(".navbar").addClass("nav-color");
             } else {
@@ -667,6 +666,16 @@
             }
         })
     </script>
+        <?php
+        // Colar na index.php o bloco abaixo
+        if (isset($_GET['status'])) :
+            if ($_GET['status'] == "sucesso") :
+                echo "<script>Materialize.toast('Enviado com sucesso!', 4000);</script>";
+            else :
+                echo "<script>Materialize.toast('Erro ao enviar', 4000);</script>";
+            endif;
+        endif;
+        ?>
 </body>
 
 </html>
